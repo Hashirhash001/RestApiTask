@@ -22,25 +22,40 @@ Simple REST API built with Laravel for managing users, projects, and tasks.
 - MySQL
 - Sanctum
 
-## API Routes
+# NOTES
 
-### Users
-- GET `/api/users/{id}`
-- POST `/api/users`
-- PUT `/api/users/{id}`
-- DELETE `/api/users/{id}`
+## (a) What I Completed
 
-### Projects
-- GET `/api/projects/{id}`
-- POST `/api/projects`
-- PUT `/api/projects/{id}`
-- DELETE `/api/projects/{id}`
+- Created REST APIs for Users, Projects, and Tasks
+- Added CRUD operations for all modules
+- Implemented database migrations with relationships
+- Added request validation
+- Added Laravel Sanctum authentication middleware
+- Added project ownership checks
+- Added soft deletes for projects and tasks
+- Structured JSON API responses
+- Added README documentation
 
-### Tasks
-- GET `/api/tasks/{id}`
-- POST `/api/tasks`
-- PUT `/api/tasks/{id}`
-- DELETE `/api/tasks/{id}`
+---
+
+## (b) What I Would Do Next With More Time
+
+- Build a frontend
+- Add login and registration APIs
+- Improve authorization using policies
+- Add pagination, filtering, and search
+- Add unit and feature tests
+- Add Swagger/OpenAPI documentation
+- Improve error handling and API structure
+
+---
+
+## (c) Trade-offs I Made
+
+- Focused more on backend API functionality than frontend UI
+- Kept the authentication flow minimal to save time
+- Used basic controller-based structure instead of service/repository pattern
+- Prioritized completing core features over advanced optimizations
 
 ## Author
 
